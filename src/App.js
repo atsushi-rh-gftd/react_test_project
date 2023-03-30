@@ -7,7 +7,7 @@ function App() {
     <>
     <div className='test_div'>
     
-    <AddTaskButton/>
+    <AddTaskButton　label="＋ タスクを追加"/>
     
     </div>
     <div className='test_div'>
