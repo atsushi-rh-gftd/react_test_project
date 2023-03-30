@@ -2,11 +2,12 @@ import react from 'react';
 import { useState } from 'react';
 import './AddTaskButton.css';
 
-function AddTaskButton() {
+function AddTaskButton (props){
+    
     return (
         <>
             <div className='align'>
-                <button className='button' onSubmit={console.log('test')}>＋ タスクを追加</button>
+                <button className='button' onClick={console.log('test')}> { props.label }</button>
             </div>
         </>
     )
